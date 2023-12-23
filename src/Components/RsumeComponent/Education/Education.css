@@ -1,0 +1,22 @@
+.education{
+    border-left: 1px solid rgba(101, 101, 101, 0.6);
+}
+.education h3 {
+    padding-left:17px ;  /*adjust to suit*/
+    margin-top: -12px;
+    font-size: 20px;
+}
+
+.education h3 span {
+    display: list-item;
+    list-style-type: disc;
+}
+.education p{
+    padding-left: 17px ;
+}
+.education .pro-date{
+    width: 22%;
+    margin-left: 5px;
+    font-weight: bold;
+    background-color: rgba(101, 101, 101, 0.6);
+}

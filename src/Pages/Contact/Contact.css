@@ -1,0 +1,12 @@
+.contact-container{
+    background-color: rgb(0, 0, 0 , 0.4);
+}
+.contact-container .contact-item{
+    background-color: rgb(26, 25, 25 , 0.5);
+    padding: 15px;
+    margin: 5px 0;
+}
+.contact-container .contact-item .social-icon:hover{
+    color:rgb(6, 212, 6) ;
+   cursor: pointer;
+}

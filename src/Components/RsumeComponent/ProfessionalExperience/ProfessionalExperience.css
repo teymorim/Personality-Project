@@ -1,0 +1,22 @@
+.professional{
+    border-left: 1px solid rgba(101, 101, 101, 0.6);
+}
+.professional h3 {
+    padding-left:17px ;  /*adjust to suit*/
+    margin-top: -12px;
+    font-size: 20px;
+}
+
+.professional h3 span {
+    display: list-item;
+    list-style-type: disc;
+}
+.professional p{
+    padding-left: 17px ;
+}
+.professional .pro-date{
+    width: 22%;
+    margin-left: 5px;
+    font-weight: bold;
+    background-color: rgba(101, 101, 101, 0.6);
+}

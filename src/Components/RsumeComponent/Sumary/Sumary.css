@@ -1,0 +1,17 @@
+
+.sumary{
+    border-left: 1px solid rgba(101, 101, 101, 0.6);
+}
+.sumary h3 {
+    padding-left:17px ;  /*adjust to suit*/
+    margin-top: -12px;
+    font-size: 20px;
+}
+
+.sumary h3 span {
+    display: list-item;
+    list-style-type: disc;
+}
+.sumary p{
+    padding-left: 17px ;
+}

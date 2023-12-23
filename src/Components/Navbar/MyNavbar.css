@@ -1,0 +1,36 @@
+
+.btn-close{
+   margin: 0 auto;
+   background-color: #fff !important;
+}
+.offcanvas{
+    background-color: #000 !important;
+}
+.navbar-toggler{
+    border: 2px solid #fff !important;
+    background-color: #fff !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.navbar-nav a{
+    padding: 5px 10px !important;
+}
+.navbar-nav a::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid rgb(6, 212, 6);
+    transform: scale(0);
+    transition: all 0.4s ease-in-out;
+}
+.navbar-nav a:hover{
+    opacity: 0.9;
+
+}
+.navbar-nav a:hover::after{
+    transform: scale(1);
+}
+.active{
+    border-bottom: 2px solid rgb(6, 212, 6);
+}

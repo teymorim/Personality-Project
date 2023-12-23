@@ -1,0 +1,18 @@
+.portfolio-container{
+    background-color: rgb(0, 0, 0 , 0.4);
+}
+.portfolio-container .portfolio-btns .btn{
+    all: unset;
+    margin: 10px 15px ;
+    outline: 1px solid rgb(6, 212, 6);
+    padding: 6px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.portfolio-container .portfolio-btns .btn:hover{
+    background-color:rgb(6, 212, 6) ;
+    cursor: pointer;
+}
+.portfolio-container .portfolio-btns .active{
+    background-color:rgb(6, 212, 6)  ;
+}
